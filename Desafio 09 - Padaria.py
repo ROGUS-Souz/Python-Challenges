@@ -30,4 +30,5 @@ while True:
     else:
         print("Opção inválida, por favor tente novamente.")
 
-print(f"O total da sua compra é: R${total},00")
+
+print(f"O total da sua compra é: R${total:.2f}")
